@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func binarySearch(arr []int, elem int, start int, end int) int {
 	// END CASE
@@ -26,4 +28,5 @@ func main() {
 	arr := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
 
 	fmt.Println(findElemIndex(arr, 9))
+
 }
